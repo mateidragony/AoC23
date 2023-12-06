@@ -18,5 +18,5 @@ with open("in.txt", "r") as fp:
         power.append(numColor["red"] * numColor["blue"] * numColor["green"])        
              
         id+=1
-    print(sum(possIds))
-    print(sum(power))
+    print("Part 1: ", sum(possIds))
+    print("Part 2: ", sum(power))

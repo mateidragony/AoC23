@@ -44,7 +44,7 @@ with open("in.txt", "r") as fp:
                 
         sum_pts += cur_sum
         
-    print(num_each_card)
+    # print(num_each_card)
         
-    print(sum_pts)
-    print(sum(num_each_card.values()))
+    print("Part 1: ", sum_pts)
+    print("Part 2: ", sum(num_each_card.values()))

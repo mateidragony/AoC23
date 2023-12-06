@@ -50,7 +50,7 @@ with open("in.txt", "r") as fp:
     
     cur_num = 0
     
-    print(grid)
+    # print(grid)
     
     for i in range(len(grid)):
         j = 0
@@ -66,11 +66,11 @@ with open("in.txt", "r") as fp:
                 cur_num += 1
             j += 1
                 
-    print(potential_gears)
+    # print(potential_gears)
     
     for gear in potential_gears.values():
         if len(gear) == 2:
             sum_gr += gear[0] * gear[1]
             
-    print("sum_parts: ", sum_parts)
-    print("sum_gr: ",sum_gr)
+    print("Part 1: ", sum_parts)
+    print("Part 2: ",sum_gr)

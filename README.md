@@ -2,7 +2,12 @@
 
 My code for the annual Advent of Code Competition.
 
+## Side Note
 Please don't ask why I did it in python
 I feel disgusted with myself.
+
+Nvm I'm doing this in a bunch of languages now!!!
+
+All my homies hate python
 
 Enjoy my code!

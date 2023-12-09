@@ -157,8 +157,13 @@ int main(int argc, char **argv){
     char *buf = read_file(file_name, &buf_sz);
     char **lines = get_lines(buf, buf_sz, &num_lines);
 
-    int num_splits;
-    char **splits = split(lines[0], " goga ", &num_splits);
-    
+    for(int line_idx = 0; line_idx < num_lines; ++line_idx){
+        char *line = lines[line_idx];
+
+    }
+
+    printf("Part One: \n");
+    printf("Part Two: \n");
+
     return 0;
 }

@@ -145,10 +145,14 @@ char **split(char *str, const char *split_str, int *num_splits){
     return splits;
 }
 
+bool allZero(int arr[], int arr_len){
+    for(int i=0; i<arr_len; ++i) if (arr[i] != 0) return false;
+    return true;
+}
 
 int main(int argc, char **argv){
 
-    char *file_name = "../intest.txt";
+    char *file_name = "intest.txt";
     if(argc >= 2) file_name = argv[1];
 
     int buf_sz;
@@ -157,8 +161,65 @@ int main(int argc, char **argv){
     char *buf = read_file(file_name, &buf_sz);
     char **lines = get_lines(buf, buf_sz, &num_lines);
 
-    int num_splits;
-    char **splits = split(lines[0], " goga ", &num_splits);
+    int part_one_sum = 0;
+    int part_two_sum = 0;
+
+    for(int i=0; i<num_lines; ++i){
+        int num_splits = 0;
+        char **splits = split(lines[i], " ", &num_splits);
+
+        int *last_nums; if((last_nums = malloc(BUFFER * sizeof(int))) == NULL) unsafe_op("malloc");
+        int *first_nums; if((first_nums = malloc(BUFFER * sizeof(int))) == NULL) unsafe_op("malloc");
+        
+        int fl_nums_buf_sz = BUFFER;
+        int num_fl_nums = 0;
+
+        int cur_diff_last_nums = 0;
+        int cur_diff_first_nums = 0;
+        int num_differences = num_splits;
+
+        int *differences; if((differences = malloc(num_differences * sizeof(int))) == NULL) unsafe_op("malloc");
+        for(int j=0; j<num_differences; ++j){
+            differences[j] = (int)(atoi(splits[j]));
+        }
+        last_nums[num_fl_nums] = differences[num_differences-1];
+        first_nums[num_fl_nums] = differences[0];
+        num_fl_nums++;
+
+        while(!allZero(differences, num_differences)){
+            num_differences--;
+            int *temp; if((temp = malloc(num_differences * sizeof(int))) == NULL) unsafe_op("malloc");
+            
+            for(int j=0; j<num_differences; ++j){
+                temp[j] = differences[j+1] - differences[j];
+            }
+
+            last_nums[num_fl_nums] = temp[num_differences-1];
+            first_nums[num_fl_nums] = temp[0];
+            num_fl_nums++;
+
+            if(num_fl_nums >= fl_nums_buf_sz){ // realloc
+                fl_nums_buf_sz+=BUFFER;
+                if((last_nums = realloc(last_nums, fl_nums_buf_sz * sizeof(int))) == NULL) unsafe_op("realloc");
+                if((first_nums = realloc(first_nums, fl_nums_buf_sz * sizeof(int))) == NULL) unsafe_op("realloc");
+            }
+
+            free(differences);
+            differences = temp;
+        }
+
+        for(int j=0; j<num_fl_nums; ++j){
+            cur_diff_last_nums = cur_diff_last_nums + last_nums[num_fl_nums - j - 1];
+            cur_diff_first_nums = first_nums[num_fl_nums - j - 1] - cur_diff_first_nums;
+        }
+
+        part_one_sum += cur_diff_last_nums;
+        part_two_sum += cur_diff_first_nums;
+
+    }
+
+    printf("Part One: %d\n", part_one_sum);
+    printf("Part Two: %d\n", part_two_sum);
     
     return 0;
 }

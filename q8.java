@@ -21,7 +21,7 @@ public class q8 {
     }
 
     private static long lcm(long a, long b){ // Source: Jeffrey Hantin Stack Overflow https://stackoverflow.com/questions/4201860/how-to-find-gcd-lcm-on-a-set-of-numbers
-        return a * (b / gcd(a, b));
+        return a * b / gcd(a, b);
     }
 
     private static long lcm(long[] input){ // Source: Jeffrey Hantin Stack Overflow https://stackoverflow.com/questions/4201860/how-to-find-gcd-lcm-on-a-set-of-numbers
@@ -111,7 +111,7 @@ public class q8 {
 
                 curPaths.get(i).add(curNode);
 
-                if(curNode.charAt(2) == 'Z' && curPaths.get(i).contains(nextNode)){ // Path loop
+                if(curNode.charAt(2) == 'Z'){ // Path loop
                     finishedPath[i] = true;
                 }
 
@@ -128,3 +128,4 @@ public class q8 {
         System.out.println("Part 2: " + lcm(curPathCosts));
     }
 }
+//16187743689077

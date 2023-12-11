@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-public class q8 {
+public class q08 {
 
     // Reason for sourcing: I was lazy and didn't want to write this math code myself...
     private static long gcd(long a, long b){ // Source: Jeffrey Hantin Stack Overflow https://stackoverflow.com/questions/4201860/how-to-find-gcd-lcm-on-a-set-of-numbers

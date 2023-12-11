@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-public class q7 {
+public class q07 {
 
     public static void insertOrdered(List<Integer> idxLst, int idx, List<String> lines, HashMap<Character, Integer> cardVals){
         String toInsert = lines.get(idx).trim().split(" ")[0];

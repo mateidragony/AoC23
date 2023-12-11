@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class q6{
+public class q06{
 
 
     public static void main(String[] args) throws FileNotFoundException{

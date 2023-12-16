@@ -5,9 +5,9 @@ My code for the annual Advent of Code Competition.
 I've never competed before, but I'm having a lot of fun so far. I'm using this as an opportunity to refine my competitive coding skills while also enjoying myself. This is also a great opportunity for me to get even more comfortable working in different languages.
 
 ## Favorite Problems
-3\. [Gear Ratios](https://adventofcode.com/2023/day/3)\
-4\. [Scratchcards](https://adventofcode.com/2023/day/4)\
-7\. [Camel Card](https://adventofcode.com/2023/day/7)\
+03\. [Gear Ratios](https://adventofcode.com/2023/day/3)\
+04\. [Scratchcards](https://adventofcode.com/2023/day/4)\
+07\. [Camel Card](https://adventofcode.com/2023/day/7)\
 14\. [Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)\
 15\. [Lens Library](https://adventofcode.com/2023/day/15) (Wonderful problem to do in C) 
 

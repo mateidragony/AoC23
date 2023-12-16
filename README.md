@@ -9,11 +9,11 @@ I've never competed before, but I'm having a lot of fun so far. I'm using this a
 4\. [Scratchcards](https://adventofcode.com/2023/day/4)\
 7\. [Camel Card](https://adventofcode.com/2023/day/7)\
 14\. [Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)\
-15\. [Lens Library](https://adventofcode.com/2023/day/15)&nbsp;&nbsp;&nbsp;Wonderful problem to do in C 
+15\. [Lens Library](https://adventofcode.com/2023/day/15) (Wonderful problem to do in C) 
 
 ## The Problems I Struggled the most on
-10\. [Pipe Maze](https://adventofcode.com/2023/day/10)&nbsp;&nbsp;&nbsp;My code may look ugly, but it works\
-12\. [Hot Springs](https://adventofcode.com/2023/day/12)&nbsp;&nbsp;&nbsp;Thank you [Calvin](https://github.com/HalflingHelper) ❤️
+10\. [Pipe Maze](https://adventofcode.com/2023/day/10) (My code may look ugly, but it works)\
+12\. [Hot Springs](https://adventofcode.com/2023/day/12) (Thank you [Calvin](https://github.com/HalflingHelper) ❤️)
 
 ## Side Note
 Please don't ask why I did it in python

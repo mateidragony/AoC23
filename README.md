@@ -13,7 +13,8 @@ I've never competed before, but I'm having a lot of fun so far. I'm using this a
 
 ## The Problems I Struggled the most on
 10\. [Pipe Maze](https://adventofcode.com/2023/day/10) (My code may look ugly, but it works)\
-12\. [Hot Springs](https://adventofcode.com/2023/day/12) (Thank you [Calvin](https://github.com/HalflingHelper) ❤️)
+12\. [Hot Springs](https://adventofcode.com/2023/day/12) (Thank you [Calvin](https://github.com/HalflingHelper) ❤️)\
+17\. [Clumsy Crucible](https://adventofcode.com/2023/day/17) (I love copying and pasting code then not changing the numbers to be what they should be 😊)
 
 ## Side Note
 Please don't ask why I did it in python

@@ -1,4 +1,4 @@
 *.txt
-test.py
+test.*
 .vscode
 *.exe

@@ -14,12 +14,6 @@ public class q08 {
         return a;
     }
 
-    private static long gcd(long[] input){ // Source: Jeffrey Hantin Stack Overflow https://stackoverflow.com/questions/4201860/how-to-find-gcd-lcm-on-a-set-of-numbers
-        long result = input[0];
-        for(int i = 1; i < input.length; i++) result = gcd(result, input[i]);
-        return result;
-    }
-
     private static long lcm(long a, long b){ // Source: Jeffrey Hantin Stack Overflow https://stackoverflow.com/questions/4201860/how-to-find-gcd-lcm-on-a-set-of-numbers
         return a * b / gcd(a, b);
     }

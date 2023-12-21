@@ -24,7 +24,9 @@ Please don't ask why I did it in python
 I feel disgusted with myself. 🤮 \
 Nvm I'm doing this in a bunch of languages now!!!
 
-Rant about Day 20: I really disliked how we were expected to map out what the input was. I think that was extremely unintuitive, and not what these coding problems should be about. The problems should require general solutions for any kind of input. This problem required that the input be designed in a specific way for the player to find the correct answer in a short amount of computation time. 
+Rant about Day 20: I really disliked how we were expected to map out what the input was. I think that was extremely unintuitive, and not what these coding problems should be about. The problems should require general solutions for any kind of input. This problem required that the input be designed in a specific way for the player to find the correct answer in a short amount of computation time. Also scouring the reddit for Part 20, I found a lot of people comparing Day 20 and Day 8 which brings up an annoying thing about day 8 that I forgot about. THE INPUT WAS DESIGNED IN A SPECIFIC WAY AS WELL!!!... Anyway, that's what I had to say about that. I hope the next days are less scripted.
+
+Rant about Day 21: THE SAME THING HAPPENED AGAIN!!!!!!!! I used to have such a high regard for Advent of Code questions, but now I just have to study the input file and hardcode my code to fit that specific input. This sucks man...
 
 Java is bae 😍 \
 All my homies hate python  

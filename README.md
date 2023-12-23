@@ -12,7 +12,8 @@ I've never competed before, but I'm having a lot of fun so far. I'm using this a
 15\. [Lens Library](https://adventofcode.com/2023/day/15) (Wonderful problem to do in C)\
 18\. [Lavaduct Lagoon](https://adventofcode.com/2023/day/18) (I learned somthing new 🤩)\
 19\. [Aplenty](https://adventofcode.com/2023/day/19) (Part one was a lot of fun)\
-20\. [Pulse Propagation](https://adventofcode.com/2023/day/20) (Part one was fun, part two was not)
+20\. [Pulse Propagation](https://adventofcode.com/2023/day/20) (Part one was fun, part two was not)\
+22\. [Sand Slabs](https://adventofcode.com/2023/day/22)
 
 ## The Problems I Struggled the most on
 10\. [Pipe Maze](https://adventofcode.com/2023/day/10) (My code may look ugly, but it works)\

@@ -24,6 +24,11 @@ public class template {
         //      Part Two
         // --------------------
 
+
+        // --------------------
+        //       Answers
+        // --------------------        
+
         System.out.println("Part 1: ");
         System.out.println("Part 2: ");
     }

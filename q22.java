@@ -173,8 +173,8 @@ public class q22 {
 
         maxX++; maxY++; maxZ++;
 
-        char[][] xGrid = new char[maxZ][maxX];
-        char[][] yGrid = new char[maxZ][maxY];
+        // char[][] xGrid = new char[maxZ][maxX];
+        // char[][] yGrid = new char[maxZ][maxY];
 
         // Collections.sort(bricks, Comparator.comparingInt(e -> e.coords1[Z]));
 

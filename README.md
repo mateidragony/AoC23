@@ -33,3 +33,6 @@ Java is bae 😍 \
 All my homies hate python  
 
 Enjoy my code! 😎
+
+## Final Note
+I'm done. Will compete again next year. For now I rest...
